@@ -12,6 +12,7 @@ namespace SignalRTestApp.MoveShape
     {
         public void MoveShape(int x, int y)
         {
+            // Call all other clients besides you
             Clients.Others.shapeMoved(x, y);
         }
     }
