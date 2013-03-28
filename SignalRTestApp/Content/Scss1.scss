@@ -1,0 +1,11 @@
+body
+{
+	@mixin test123 {
+			   background-color: red;
+	       }
+
+		   .test {
+			   @include test123;
+
+		   }
+}
